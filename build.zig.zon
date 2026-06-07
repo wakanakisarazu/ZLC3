@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-FileCopyrightText: 2026 Wakana Kisarazu <wakanakisarazu.work@gmail.com>
+
+
+
+.{
+    .name = .ZLC3,
+    .version = "0.0.1-rc1",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0x98f039ae77e9096d,
+
+    .dependencies = .{},
+
+    .paths = .{
+        "assets",
+        "documents",
+        "source",
+        "tests",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    }
+}
